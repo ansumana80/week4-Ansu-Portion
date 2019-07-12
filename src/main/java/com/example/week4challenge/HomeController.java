@@ -10,10 +10,22 @@ public class HomeController {
         return "index";
     }
 
-    @RequestMapping("/content")
+    @RequestMapping("/about")
     public String infoPage(){
-        return "content";
+        return "about";
+    }
+    @RequestMapping("/information")
+    public String info(){
+        return "about";
     }
 
+    @RequestMapping("/author")
+    public String author(){
+        return "author";
+    }
 
+    @RequestMapping("/author_information")
+    public String author_information(){
+        return "author_information";
+    }
 }
